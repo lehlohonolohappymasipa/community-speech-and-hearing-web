@@ -1,0 +1,174 @@
+{
+  "practice": {
+    "name": "Community Speech and Hearing Health Care Specialist",
+    "tagline": "Expert Speech and Hearing Care for Your Community",
+    "foundedYear": 1992,
+    "yearsOfExperience": "30+",
+    "description": "With over three decades of experience, our practice is led by Thavhanyedza Alex Mafhungo, a dedicated Speech and Hearing Therapy Consultant serving Limpopo Province since 1992."
+  },
+  "specialist": {
+    "name": "Thavhanyedza Alex Mafhungo",
+    "title": "Speech and Hearing Therapy Consultant",
+    "credentials": "Speech and Hearing Therapy Consultant",
+    "bio": "Thavhanyedza Alex Mafhungo has been a dedicated Speech and Hearing Therapy Consultant serving Limpopo Province since 1992. With over three decades of clinical experience, he has pioneered occupational hearing conservation programs in the Levubu area and collaborates annually with leading consultants and organizations. His commitment to excellence and community care has made him a trusted partner for hospitals, organizations, and families throughout the region."
+  },
+  "contact": {
+    "phone": "+27 71 381 1976",
+    "address": {
+      "street": "Ngovhela Phindula, Near Pfanani Clinic",
+      "city": "Limpopo",
+      "country": "South Africa"
+    }
+  },
+  "book": {
+    "title": "A Guidebook of Community Approach to Audiology",
+    "author": "Thavhanyedza Alex Mafhungo",
+    "description": "This comprehensive guidebook explores the key concepts, challenges, and future directions for community development in audiology. It provides practical insights for health practitioners looking to improve accessibility, provide personalized care, and meet the diverse needs of individuals in their communities.",
+    "coverImage": "/images/book-cover.webp",
+    "format": "Physical Copy Only",
+    "purchaseMethod": "Contact us to place your order via phone, email, or LinkedIn",
+    "targetAudience": [
+      "Health practitioners",
+      "Audiologists",
+      "Community health workers",
+      "Healthcare administrators",
+      "Public health professionals",
+      "Students in audiology and speech therapy"
+    ],
+    "whatYoullLearn": [
+      "Key concepts in community-based audiology",
+      "Strategies for improving healthcare accessibility",
+      "Personalized care approaches for diverse populations",
+      "Challenges facing community audiology today",
+      "Future directions for the field",
+      "Practical implementation frameworks"
+    ]
+  },
+  "services": [
+    {
+      "id": "hearing-assessments",
+      "title": "Hearing Assessments & Diagnostics",
+      "shortDescription": "Comprehensive hearing evaluations and diagnostics for all ages, using advanced technology and decades of clinical experience.",
+      "fullDescription": "Our comprehensive hearing assessments utilize state-of-the-art diagnostic equipment combined with over 30 years of clinical expertise. We provide thorough evaluations for patients of all ages, from newborns to seniors, ensuring accurate diagnosis and personalized treatment recommendations.",
+      "icon": "ear",
+      "features": [
+        "Pure tone audiometry",
+        "Speech audiometry",
+        "Tympanometry",
+        "Otoacoustic emissions (OAE) testing",
+        "Pediatric hearing assessments",
+        "Occupational hearing screenings"
+      ]
+    },
+    {
+      "id": "hearing-aids",
+      "title": "Hearing Aid Services",
+      "shortDescription": "Personalized hearing aid selection, fitting, and ongoing support to help you hear your best every day.",
+      "fullDescription": "We offer comprehensive hearing aid services including professional consultation, device selection, custom fitting, and ongoing maintenance. Our personalized approach ensures you receive the perfect solution for your lifestyle and hearing needs.",
+      "icon": "headphones",
+      "features": [
+        "Hearing aid consultation and selection",
+        "Custom fitting and programming",
+        "Follow-up adjustments",
+        "Maintenance and repairs",
+        "Battery and accessory supplies",
+        "Hearing aid orientation and training"
+      ]
+    },
+    {
+      "id": "speech-language-therapy",
+      "title": "Speech & Language Therapy",
+      "shortDescription": "Professional assessment and therapy for speech and language challenges, tailored to each individual's needs.",
+      "fullDescription": "Our speech and language therapy services address a wide range of communication disorders. We provide individualized assessment and treatment plans designed to help patients of all ages achieve their communication goals.",
+      "icon": "speech",
+      "features": [
+        "Speech sound disorders",
+        "Language delays and disorders",
+        "Fluency disorders (stuttering)",
+        "Voice disorders",
+        "Cognitive-communication disorders",
+        "Swallowing difficulties"
+      ]
+    },
+    {
+      "id": "pediatric-audiology",
+      "title": "Pediatric Audiology",
+      "shortDescription": "Specialized hearing care for children, from newborn screening to ongoing management and support.",
+      "fullDescription": "Our pediatric audiology services are designed specifically for children's unique needs. We use child-friendly techniques and equipment to ensure accurate assessments and effective treatment for young patients.",
+      "icon": "child",
+      "features": [
+        "Newborn hearing screening",
+        "Pediatric hearing assessments",
+        "Early intervention programs",
+        "School hearing screenings",
+        "Pediatric hearing aid fitting",
+        "Parent education and support"
+      ]
+    }
+  ],
+  "faq": {
+    "general": [
+      {
+        "question": "What should I expect during my first visit?",
+        "answer": "During your first visit, we'll conduct a thorough case history review and comprehensive hearing evaluation. This typically takes about 60-90 minutes. We'll discuss your hearing concerns, perform diagnostic tests, and review the results with you, providing recommendations tailored to your needs."
+      },
+      {
+        "question": "Do I need a referral to book an appointment?",
+        "answer": "No referral is necessary. You can contact us directly to schedule an appointment. However, if you have been referred by a physician or specialist, please bring any relevant documentation to your appointment."
+      },
+      {
+        "question": "What ages do you serve?",
+        "answer": "We provide services for patients of all ages, from newborns requiring hearing screenings to seniors seeking hearing assistance. Our team is experienced in pediatric, adult, and geriatric audiology."
+      },
+      {
+        "question": "How long has the practice been established?",
+        "answer": "Our practice has been serving Limpopo Province since 1992, with over 30 years of dedicated service to our community."
+      }
+    ],
+    "book": [
+      {
+        "question": "How can I purchase the book?",
+        "answer": "The book 'A Guidebook of Community Approach to Audiology' is available as a physical copy only. To place an order, please contact us via phone, email, or LinkedIn. We'll provide you with ordering details and delivery information."
+      },
+      {
+        "question": "Is the book available in digital format?",
+        "answer": "Currently, the book is only available as a physical copy. This ensures the best reading experience for the detailed content and diagrams included in the guidebook."
+      },
+      {
+        "question": "Who is the book written for?",
+        "answer": "The book is written for health practitioners, audiologists, community health workers, healthcare administrators, public health professionals, and students in audiology and speech therapy who want to improve accessibility and personalized care in their communities."
+      },
+      {
+        "question": "Can I get a sample before purchasing?",
+        "answer": "Yes! You can download a sample chapter from our website to preview the content before placing your order."
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "placeholder": "/images/hero-bg.webp",
+      "alt": "Professional audiology consultation",
+      "replaceWith": "High-quality image of audiologist conducting hearing test or consultation with patient"
+    },
+    "about": {
+      "placeholder": "/images/audiologist-headshot.webp",
+      "alt": "Thavhanyedza Alex Mafhungo - Speech and Hearing Therapy Consultant",
+      "replaceWith": "Professional headshot or portrait of Thavhanyedza Alex Mafhungo"
+    },
+    "clinic": {
+      "placeholder": "/images/hero-bg.webp",
+      "alt": "Our practice facility",
+      "replaceWith": "Photo of the practice/clinic facility exterior or interior"
+    },
+    "bookCover": {
+      "placeholder": "/images/book-cover.webp",
+      "alt": "A Guidebook of Community Approach to Audiology book cover",
+      "replaceWith": "Actual book cover image of 'A Guidebook of Community Approach to Audiology'"
+    },
+    "services": {
+      "placeholder": "/images/hearing-assessment.webp",
+      "alt": "Audiology equipment and services",
+      "replaceWith": "Image showing audiology equipment or service being performed"
+    }
+  }
+}
