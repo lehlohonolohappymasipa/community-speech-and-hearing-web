@@ -20,7 +20,7 @@ A modern, responsive website for Thavhanyedza Alex Mafhungo, a Speech and Hearin
 
 ### Prerequisites
 
-- Node.js 18+ installed
+- Node.js 20.9+ installed
 - npm or yarn package manager
 
 ### Installation

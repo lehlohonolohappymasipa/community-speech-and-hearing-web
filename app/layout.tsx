@@ -24,6 +24,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://communityspeechandhearing.netlify.app"),
   title: {
     default: "Community Speech and Hearing Health Care Specialist | Expert Audiology Care in Limpopo",
     template: "%s | Community Speech and Hearing Health Care Specialist",
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_ZA",
-    url: "https://TODO-add-domain.co.za",
+    url: "https://communityspeechandhearing.netlify.app",
     siteName: "Community Speech and Hearing Health Care Specialist",
     title: "Community Speech and Hearing Health Care Specialist | Expert Audiology Care in Limpopo",
     description: "Expert speech and hearing care for Limpopo Province since 1992. Over 30 years of dedicated service to our community.",
