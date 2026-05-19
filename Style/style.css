@@ -1,0 +1,290 @@
+/* style.css */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#0f0d0b;
+  color:#f5f1ea;
+  overflow-x:hidden;
+  font-family:'Inter',sans-serif;
+  position:relative;
+}
+
+/* GRAIN */
+
+.grain{
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  opacity:0.05;
+  background-image:url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  z-index:999;
+}
+
+/* HERO */
+
+.hero{
+  min-height:100vh;
+  position:relative;
+
+  background:
+  linear-gradient(
+    rgba(10,10,10,0.75),
+    rgba(10,10,10,0.85)
+  ),
+  url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1600&auto=format&fit=crop");
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  padding:100px 20px;
+}
+
+.hero-content{
+  text-align:center;
+  max-width:950px;
+}
+
+.top-text{
+  letter-spacing:6px;
+  font-size:0.8rem;
+  margin-bottom:25px;
+  color:#d9c5a1;
+}
+
+.hero h1{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(3.5rem,8vw,7rem);
+  line-height:1;
+  font-weight:600;
+}
+
+.subtitle{
+  margin-top:30px;
+  font-size:1.2rem;
+  line-height:2;
+  color:#ddd0bb;
+}
+
+.hero-image{
+  width:min(350px,85vw);
+  height:min(430px,95vw);
+
+  margin:60px auto;
+
+  border-radius:18px;
+  overflow:hidden;
+
+  border:2px solid rgba(255,255,255,0.15);
+
+  transform:rotate(-2deg);
+
+  box-shadow:
+  0 20px 60px rgba(0,0,0,0.5);
+}
+
+.hero-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.profession{
+  max-width:700px;
+  margin:auto;
+
+  line-height:2;
+  color:#cdb892;
+}
+
+/* GENERAL */
+
+section{
+  padding:120px 20px;
+}
+
+.section-tag{
+  color:#caa76b;
+  letter-spacing:4px;
+  font-size:0.8rem;
+  display:block;
+  margin-bottom:20px;
+}
+
+h2{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(2.5rem,6vw,5rem);
+  line-height:1.1;
+  margin-bottom:30px;
+}
+
+p{
+  line-height:2;
+  color:#ddd6c9;
+  font-size:1.05rem;
+}
+
+/* STORY */
+
+.story-grid{
+  max-width:1200px;
+  margin:auto;
+
+  display:grid;
+  grid-template-columns:1.5fr 1fr;
+  gap:60px;
+  align-items:center;
+}
+
+.quote-card{
+  background:#171310;
+
+  padding:60px 40px;
+
+  border-radius:30px;
+
+  border:1px solid rgba(255,255,255,0.05);
+
+  font-family:'Parisienne',cursive;
+  font-size:2rem;
+  color:#e6c88f;
+
+  line-height:1.6;
+}
+
+/* PEOPLE */
+
+.people-container{
+  max-width:900px;
+  margin:auto;
+  text-align:center;
+}
+
+/* MIND */
+
+.mind-section{
+  background:
+  linear-gradient(
+    rgba(15,13,11,0.92),
+    rgba(15,13,11,0.92)
+  ),
+  url("https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1600&auto=format&fit=crop");
+
+  background-size:cover;
+  background-position:center;
+}
+
+.mind-content{
+  max-width:850px;
+  margin:auto;
+  text-align:center;
+}
+
+/* LEGACY */
+
+.legacy-section{
+  text-align:center;
+}
+
+.legacy-grid{
+  max-width:1200px;
+  margin:70px auto 0;
+
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+}
+
+.legacy-card{
+  background:#171310;
+
+  padding:50px 35px;
+
+  border-radius:28px;
+
+  border:1px solid rgba(255,255,255,0.06);
+
+  transition:0.4s ease;
+}
+
+.legacy-card:hover{
+  transform:translateY(-10px);
+}
+
+.legacy-card span{
+  font-size:3rem;
+}
+
+.legacy-card h3{
+  margin:20px 0;
+  font-size:2rem;
+  font-family:'Cormorant Garamond',serif;
+  color:#e6c88f;
+}
+
+/* FINAL */
+
+.final-section{
+  min-height:70vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+}
+
+.final-content{
+  max-width:850px;
+}
+
+.final-text{
+  font-size:1.2rem;
+  line-height:2.2;
+  margin-bottom:50px;
+}
+
+.final-content h2{
+  font-family:'Parisienne',cursive;
+  font-size:clamp(3rem,8vw,6rem);
+  color:#e6c88f;
+}
+
+/* SCROLL ANIMATION */
+
+.fade-up{
+  opacity:0;
+  transform:translateY(40px);
+  transition:1.2s ease;
+}
+
+.fade-up.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+  .story-grid{
+    grid-template-columns:1fr;
+  }
+
+  .quote-card{
+    font-size:1.5rem;
+  }
+
+}
